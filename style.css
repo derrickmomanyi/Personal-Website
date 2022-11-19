@@ -1,0 +1,122 @@
+body {
+margin: 0;
+padding: 0;
+background-image: url(https://images.hdqwalls.com/wallpapers/beautiful-beach-sunset-4k-5r.jpg);
+background-size: cover;
+}
+.Myself{
+    position: top;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+
+}
+nav ul li a{
+    font-weight: bold;
+    color: #fff;}
+    nav ul li a:hover{
+        text-decoration: none;
+        color: black;
+    }
+nav ul #contact{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background:gray;
+    border-radius: 20px;
+    
+}
+
+.About{
+margin-left: 3%;
+margin-top: 0;
+color: aliceblue;
+font-size: 20px;
+}
+
+.About a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+    background:gray;
+    border-radius: 5px;
+    margin-right: 10px;  
+}
+.About a:hover{
+    background: black;
+    color: white;}
+
+#intro {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.13);
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    margin-top: 0%;
+    color: aliceblue;
+    font-family: 'Sono', sans-serif;
+    font-style: italic;
+
+
+}
+
+#intro .intro-img {
+    border-radius: 50%;
+
+
+}
+
+#intro h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#intro h5{
+    font-size: 70px;
+    letter-spacing: 4px;
+}
+
+#intro p{
+    text-align: justify;
+    font-style: italic;
+}
+div ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#intro li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all ease-in-out 150ms;
+}
+
+#intro li:hover{
+    background-color: black;
+}
+
